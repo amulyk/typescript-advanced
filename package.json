@@ -1,0 +1,16 @@
+{
+  "name": "typescript-advanced",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:amulyk/typescript-advanced.git",
+  "author": "Andrii Mulyk <amulyk@lectrum.io>",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn compile && yarn execute",
+    "compile": "tsc ./examples/index.ts",
+    "execute": "node ./examples/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.4"
+  }
+}
